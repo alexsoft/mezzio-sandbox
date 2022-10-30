@@ -1,27 +1,11 @@
 {
-    "name": "mezzio/mezzio-skeleton",
-    "description": "Laminas mezzio skeleton. Begin developing PSR-15 middleware applications in seconds!",
+    "name": "alexsoft/mezzio-sandbox",
+    "description": "Personal sandbox where I try some development approaches",
     "type": "project",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "keywords": [
-        "laminas",
-        "mezzio",
-        "skeleton",
-        "middleware",
-        "psr",
-        "psr-7",
-        "psr-11",
-        "psr-15"
+        "mezzio"
     ],
-    "homepage": "https://mezzio.dev",
-    "support": {
-        "docs": "https://docs.mezzio.dev/mezzio/",
-        "issues": "https://github.com/mezzio/mezzio-skeleton/issues",
-        "source": "https://github.com/mezzio/mezzio-skeleton",
-        "rss": "https://github.com/mezzio/mezzio-skeleton/releases.atom",
-        "chat": "https://laminas.dev/chat",
-        "forum": "https://discourse.laminas.dev"
-    },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
@@ -46,22 +30,22 @@
     },
     "require": {
         "php": "~8.0.0 || ~8.1.0",
-        "composer/package-versions-deprecated": "^1.10.99",
-        "laminas/laminas-component-installer": "^3.0",
-        "laminas/laminas-config-aggregator": "^1.6",
-        "laminas/laminas-diactoros": "^2.7",
-        "laminas/laminas-stdlib": "^3.6",
-        "mezzio/mezzio": "^3.7",
-        "mezzio/mezzio-helpers": "^5.7",
-        "laminas/laminas-servicemanager": "^3.4",
-        "mezzio/mezzio-fastroute": "^3.0.3"
+        "composer/package-versions-deprecated": "^1.11.99.5",
+        "laminas/laminas-component-installer": "^3.0.1",
+        "laminas/laminas-config-aggregator": "^1.11",
+        "laminas/laminas-diactoros": "^2.20",
+        "laminas/laminas-stdlib": "^3.15",
+        "mezzio/mezzio": "^3.13",
+        "mezzio/mezzio-helpers": "^5.11",
+        "laminas/laminas-servicemanager": "^3.19",
+        "mezzio/mezzio-fastroute": "^3.7"
     },
     "require-dev": {
-        "laminas/laminas-development-mode": "^3.3.0",
-        "mezzio/mezzio-tooling": "^2.1",
-        "phpunit/phpunit": "^9.5.11",
-        "roave/security-advisories": "dev-master",
-        "filp/whoops": "^2.7.1"
+        "laminas/laminas-development-mode": "^3.10",
+        "mezzio/mezzio-tooling": "^2.6",
+        "phpunit/phpunit": "^9.5.26",
+        "roave/security-advisories": "dev-latest",
+        "filp/whoops": "^2.14.5"
     },
     "autoload": {
         "psr-4": {
